@@ -31,4 +31,5 @@ a slideunlock plugin based on jQuery
 1.     successLabelTip ：解锁后提示文字   
 2.     duration ：动画持续时间   
 
-### Attention(注意事项)
+### Demo(演示)
+[演示页面http://dyh1995.github.io/jquery.slideunlock.js/](http://dyh1995.github.io/jquery.slideunlock.js/)
