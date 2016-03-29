@@ -135,7 +135,8 @@
         }
         if (me.index+me.labelWidth+2 == me.max && me.max > 0 && me.isOk) {
             //解锁默认操作
-            $('#label').css({'color': '#7AC23C'}).unbind().next('#labelTip').text(me.opts.successLabelTip).css({'color': '#fff'});
+            $('#label').unbind().next('#labelTip').
+            text(me.opts.successLabelTip).css({'color': '#fff'});
 
             me.success();
         }
